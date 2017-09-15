@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <link rel = "stylesheet" type = "text.css" href = "main.css" />
+        <title> </title>
+    </head>
+    <body>
+        <h1>Mega Problem Set</h1>
+        <h2>September 7, 2017</h2>
+        <h3>Integer Number Systems</h3>
+        <p>Give the bit patterns for the following values. Use 4 bits before and 4 bits after the binary point. 
+        For simplicity, feel free to omit the binary point)</p>
+        <ol>
+            <li>6.5 using BCD encoding</li>
+            <li>6.5 using 2's compliment</li>
+            <li>-6.5 using 2's compliment</li>
+        </ol>
+        <h3>Solutions</h3>
+        <ol>
+            <li>0110.0101</li>
+            <li>0110.1000</li>
+            <li>1001.1000</li>
+        </ol>
+        
+        <h3>Using C Operators to Perform More</h3>
+        <p>
+        Using just the operators &, !, ~, &&, !!, ^, and >>, can you create a C function that returns 1 if the integer
+        is positive and 0 if the integer is negative? <br>
+        <pre>
+        <code>
+            int isPositive(int x) { 
+                int y = x >> 31; 
+                return y;
+            }
+            
+        </code>
+        </pre>
+        </p>
+
+    </body>
+</html>

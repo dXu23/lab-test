@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+.base00 { color: #fdf6e3; }
+.base01 { color: #eee8d5; }
+.base02 { color: #93a1a1; }
+.base03 { color: #839496; }
+.base04 { color: #657b83; }
+.base05 { color: #586e75; }
+.base06 { color: #073642; }
+.base07 { color: #002b36; }
+.base08 { color: #dc322f; }
+.base09 { color: #cb4b16; }
+.base0A { color: #b58900; }
+.base0B { color: #859900; }
+.base0C { color: #2aa198; }
+.base0D { color: #268bd2; }
+.base0E { color: #6c71c4; }
+.base0F { color: #d33682; }
+
+pre {
+    background-color: #fdf6e3;
+    border-width: 30px;
+    border-color: #e3eafd;
+}
+
+body {
+    font-family: 'Fira Sans';
+}
